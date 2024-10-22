@@ -10,7 +10,11 @@ body {
     text-align:center;
 
 }
+.gato{animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 
+}
 p {
     background: transparent; 
 }
