@@ -24,10 +24,12 @@ body {
     25% {
         transform: rotate(45deg);
         left: 200px; 
+        top: 200px;
     }
     50% {
         transform: rotate(90deg);
         left: 200px; 
+        top: 200px;
     }
     75% {
         transform: rotate(180deg);
