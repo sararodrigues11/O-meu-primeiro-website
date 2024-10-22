@@ -25,7 +25,6 @@ body {
     25% {
         transform: rotate(45deg);
         left: 200px; 
-        top: 200px;
     }
     50% {
         transform: rotate(90deg);
@@ -34,7 +33,8 @@ body {
     }
     75% {
         transform: rotate(180deg);
-        left: 0; 
+        left: 0;
+        top: 200px; 
     }
     100% {
         transform: rotate(360deg);
