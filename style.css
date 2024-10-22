@@ -15,6 +15,7 @@ body {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     position: relative;
+    z-index: 1;
 
 }
 @keyframes rotate {
