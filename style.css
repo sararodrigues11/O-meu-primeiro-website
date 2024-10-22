@@ -1,10 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, lightskyblue, lightyellow, lightpink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    margin:0;
+    text-align:center;
 }
 
 p {
-    background: transparent; /* Ou pode remover este estilo se não precisar */
+    background: transparent; 
 }
 
 h1 {
