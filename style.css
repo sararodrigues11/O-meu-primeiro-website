@@ -21,15 +21,18 @@ body {
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
+        left: 0;
+        top: 0;
     }
     25% {
         transform: rotate(45deg);
         left: 200px; 
+        top: 0; /
     }
     50% {
         transform: rotate(90deg);
         left: 200px; 
-        top: 200px;
+        top: 200px; 
     }
     75% {
         transform: rotate(180deg);
@@ -39,6 +42,7 @@ body {
     100% {
         transform: rotate(360deg);
         left: 0; 
+        top: 0; 
     }
 }
 p {
