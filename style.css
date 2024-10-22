@@ -10,26 +10,23 @@ body {
     text-align:center;
 
 }
-.gato{animation-name: rotate;
+.gato{
+    animation-name: rotate;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    position: relative;
 
 }
 @keyframes rotate {
-    0%{left: 0px;
-    right: 0px;}
-    25%{left:200%
-    right:0%
-transform: rotate(45deg)}
-    50%{left:200px
-    right:200px
-transform: rotate(90deg)}
-    75%{left:0px
-    right:200px
-transform:rotate(180deg)}
-    100%{left:0px
-    right:0px
-transform:rotate(360deg)}
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(45deg)
+    left: 200px;}
+    50%{transform: rotate(90deg)
+    left: 200px;}
+    75%{transform:rotate(180deg)
+    left:0;}
+    100%{transform:rotate(360deg)
+    left:0;}
     
 }
 p {
