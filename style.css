@@ -10,6 +10,14 @@ body {
     text-align:center;
 
 }
+.gato-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position:relative;
+}
 .gato{
     animation-name: rotate;
     animation-duration: 10s;
