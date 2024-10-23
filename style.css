@@ -24,25 +24,33 @@ body {
     animation-iteration-count: infinite;
     position: relative;
     z-index: 1;
-    left: 50%; 
-    top: 50%; 
-    transform: translate(-50%, -50%);
+
 }
 @keyframes rotate {
     0% {
-        transform: rotate(0deg) translate(-50%, -50%);
+        transform: rotate(0deg);
+        left: 0;
+        top: 0;
     }
     25% {
-        transform: rotate(45deg) translate(-50%, -50%);
+        transform: rotate(45deg);
+        left: 200px; 
+        top: 0; 
     }
     50% {
-        transform: rotate(90deg) translate(-50%, -50%);
+        transform: rotate(90deg);
+        left: 200px; 
+        top: 200px; 
     }
     75% {
-        transform: rotate(180deg) translate(-50%, -50%);
+        transform: rotate(180deg);
+        left: 0;
+        top: 200px; 
     }
     100% {
-        transform: rotate(360deg) translate(-50%, -50%);
+        transform: rotate(360deg);
+        left: 0; 
+        top: 0; 
     }
 }
 p {
