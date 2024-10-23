@@ -24,7 +24,9 @@ body {
     animation-iteration-count: infinite;
     position: relative;
     z-index: 1;
-
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
 }
 @keyframes rotate {
     0% {
